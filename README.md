@@ -8,3 +8,4 @@
 
 1. Create a `.md` file within a `slides` folder 
 2. Run `npm run export`
+3. The resulting .pngs can be located in `_output`
