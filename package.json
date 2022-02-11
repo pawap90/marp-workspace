@@ -1,0 +1,20 @@
+{
+  "name": "marp-custom",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "export": "marp"
+  },
+  "author": "paulasantamaria",
+  "license": "ISC",
+  "dependencies": {
+    "@marp-team/marp-cli": "^1.5.2"
+  },
+  "marp": {
+    "inputDir": "slides",
+    "output":" _output",
+    "themeSet": "themes",
+    "images": "png"
+  }
+}
