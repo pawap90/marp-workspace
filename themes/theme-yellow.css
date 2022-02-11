@@ -1,0 +1,142 @@
+/* @theme theme-yellow */
+
+/**
+ * @theme theme-yellow
+ * @size 4:4 1080px 1080px
+ * @size 4:5 1080px 1350px
+  */
+
+@import 'default';
+
+:root {
+  --color-black: #212121;
+  --color-gray: #818181;
+  --color-white: #f5f5f5;
+  --color-accent: #F7DD71;
+  --color-secondary: slateblue;
+
+  --title-bg: url("data:image/svg+xml,%3Csvg width='1000' height='145' viewBox='0 0 1000 145' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M0 0H1000L908 145H0V0Z' fill='%23F7DD71'/%3E%3C/svg%3E");  
+}
+
+/* ------------ Markdown styling ------------ */
+
+section {
+  background: var(--color-white);
+  font-family: 'Montserrat';
+  line-height: 180%;
+  font-size: 42px;
+  color: var(--color-black);
+  height: 1350px;
+  width: 1080px;
+  padding: 0px;
+}
+
+p {
+  padding-top: 2px;
+  padding-bottom: 2px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+strong {
+  color: var(--color-secondary);
+}
+
+a {
+  color: var(--color-secondary);
+}
+
+footer {
+  padding-left: 50px;
+  color: var(--color-gray);
+  padding-right: 50px;
+}
+
+footer > a {
+  color: var(--color-gray);
+
+}
+
+h1 {
+  font-size: 52px;
+  font-weight: bolder;
+  
+  padding-left: 50px;
+  padding-top: 18px;
+  padding-bottom: 18px;
+  color: var(--color-black);
+  width: 980px;
+  
+  top: 80px;
+  position: absolute;
+  
+  background-image: var(--title-bg);
+  background-repeat: no-repeat; 
+}
+
+h2 {
+  font-size: 48px;
+  font-weight: bolder;
+  
+  padding-left: 50px;
+  padding-bottom: 8px;
+}
+
+h3 {
+  font-size: 44px;
+  font-weight: bold;
+  
+  padding-left: 50px;
+  padding-bottom: 8px;
+}
+
+h4 {
+  font-size: 40px;
+  font-weight: 600;
+  
+  padding-left: 50px;
+  
+  padding-bottom: 8px;
+}
+ 
+ul {
+  padding-left: 100px;
+}
+
+ul > li {
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-bottom: 12px;
+  padding-top: 12px;
+}
+
+pre {
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+pre > code {
+  font-size: 30px;
+}
+
+img {
+  background: none;
+  margin-top: 12px;
+  margin-bottom: 12px;
+}
+
+section > * {
+  z-index: 100;
+}
+
+/* ------------ Utility classes ------------ */
+img.background {
+  position: absolute; 
+  top: 0; 
+  bottom: 0; 
+  left: 0; 
+  right: 0;
+  min-height: 100%; 
+  min-width: 100%;
+  z-index: 1;
+}

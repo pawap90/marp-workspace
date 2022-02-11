@@ -1,0 +1,8 @@
+/* @theme theme-blue */
+
+@import 'theme-yellow';
+
+:root {
+  --color-accent: blue;
+  --title-bg: url("data:image/svg+xml,%3Csvg width='1000' height='145' viewBox='0 0 1000 145' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M0 0H1000L908 145H0V0Z' fill='%2318DBDF'/%3E%3C/svg%3E");  
+}
