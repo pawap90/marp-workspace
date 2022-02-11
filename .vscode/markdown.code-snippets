@@ -1,0 +1,11 @@
+{
+	"Background image": {
+		"scope": "markdown",
+		"prefix": "bgimg",
+		"body": [
+			"<img class=\"background\" src=\"$1\" />",
+	 		"$2"
+		],
+		"description": "Creates a background image element"
+	}
+}
