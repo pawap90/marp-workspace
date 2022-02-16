@@ -32,8 +32,8 @@ section {
 }
 
 p {
-  padding-top: 2px;
-  padding-bottom: 2px;
+  padding-top: 24px;
+  padding-bottom: 24px;
   padding-left: 50px;
   padding-right: 50px;
 }
@@ -127,6 +127,13 @@ img {
 
 section > * {
   z-index: 100;
+}
+
+blockquote {
+  font-size: 36px;
+  line-height: 160%;
+  padding-left: 0px;
+  padding-right: 4px;
 }
 
 /* ------------ Utility classes ------------ */
