@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "export": "marp"
+    "export": "marp",
+    "help": "marp --help"
   },
   "author": "paulasantamaria",
   "license": "ISC",
