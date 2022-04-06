@@ -101,8 +101,8 @@ h4 {
   padding-bottom: 8px;
 }
  
-ul {
-  padding-left: 100px;
+ul, ol {
+  padding-left: 120px;
 }
 
 ul > li {
