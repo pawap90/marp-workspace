@@ -32,3 +32,10 @@ footer: paulasantamaria.com                 �
 
 > This properties are called "directives". Learn more about them [here](https://marpit.marp.app/directives)
 
+# Tools
+
+Tools used in this workspace:
+
+- [Marp CLI](https://github.com/marp-team/marp-cli)
+- [Marp VSCode extension](https://github.com/marp-team/marp-vscode)
+- Syntax theme: Atom One Dark by Daniel Gamage
