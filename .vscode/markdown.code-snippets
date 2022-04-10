@@ -7,5 +7,20 @@
 	 		"$2"
 		],
 		"description": "Creates a background image element"
+	},
+	"GitHub repo": {
+		"scope": "markdown",
+		"prefix": "githubrepo",
+		"body": [
+			"<div class=\"github-repo\">",
+			"    <img src=\"~/../../assets/github-dark.svg\">",
+			"    <div>",
+			"        <p class=\"url\">github.com/$1</p>",
+			"        <p>$2</p>",
+			"    </div>",
+			"</div>",
+	 		"$3"
+		],
+		"description": "Creates a GitHub repo badge"
 	}
 }

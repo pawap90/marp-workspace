@@ -6,8 +6,7 @@
  * @size 4:5 1080px 1350px
   */
 
-  @import 'default';
-  /* @import './atom-one-dark.css'; */
+@import 'default';
 
 :root {
   --color-black: #212121;
@@ -238,4 +237,28 @@ img.background {
   min-height: 100%; 
   min-width: 100%;
   z-index: 1;
+}
+
+.github-repo {
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 80%;
+}
+
+.github-repo img {
+  width: 180px;
+}
+
+.github-repo .url {
+  margin-top: 16px;
+  color: var(--color-gray);
+}
+.github-repo p {
+  padding-top: 0px;
+  padding-bottom: 0px;
+  font-weight: bold;
+  line-height: 1.2;
+  font-size: 100vi;
 }
