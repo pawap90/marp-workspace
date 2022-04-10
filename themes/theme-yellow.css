@@ -262,3 +262,11 @@ img.background {
   line-height: 1.2;
   font-size: 100vi;
 }
+
+blockquote.small-centered {
+  text-align: center; 
+  font-size: 28px; 
+  width: 60%; 
+  margin-left: auto; 
+  margin-right: auto;
+}
