@@ -1,8 +1,7 @@
 {
     "markdown.marp.themes": [
         "./themes/theme-yellow.css",
-        "./themes/theme-blue.css",
-        "./themes/atom-one-dark.css",
+        "./themes/theme-blue.css"
     ],
     "markdown.marp.enableHtml": true
 }
