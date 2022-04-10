@@ -16,6 +16,8 @@
     "inputDir": "slides",
     "output":"_output",
     "themeSet": "themes",
-    "images": "png"
+    "images": "png",
+    "html": true, 
+    "allowLocalFiles": true
   }
 }
