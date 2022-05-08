@@ -1,7 +1,11 @@
 {
     "markdown.marp.themes": [
         "./themes/theme-yellow.css",
-        "./themes/theme-blue.css"
+        "./themes/theme-yellow-dark.css",
+        "./themes/theme-blue.css",
+        "./themes/theme-blue-dark.css",
+        "./themes/theme-pink.css",
+        "./themes/theme-pink-dark.css"
     ],
     "markdown.marp.enableHtml": true
 }

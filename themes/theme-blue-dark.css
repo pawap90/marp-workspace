@@ -1,6 +1,6 @@
-/* @theme theme-blue */
+/* @theme theme-blue-dark */
 
-@import 'theme-yellow';
+@import 'theme-yellow-dark';
 
 :root {
   --color-accent: #18DBDF;

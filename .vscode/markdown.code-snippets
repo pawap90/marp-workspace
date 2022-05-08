@@ -13,7 +13,7 @@
 		"prefix": "githubrepo",
 		"body": [
 			"<div class=\"github-repo\">",
-			"    <img src=\"~/../../assets/github-dark.svg\">",
+			"    <div class=\"github-logo\"></div>",
 			"    <div>",
 			"        <p class=\"url\">github.com/$1/</p>",
 			"        <p>$2</p>",

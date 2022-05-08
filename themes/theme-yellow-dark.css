@@ -1,7 +1,7 @@
 /* @theme theme-yellow */
 
 /**
- * @theme theme-yellow
+ * @theme theme-yellow-dark
  * @size 4:4 1080px 1080px
  * @size 4:5 1080px 1350px
   */
@@ -9,11 +9,10 @@
 @import 'default';
 
 :root {
-  --color-black: #212121;
-  --color-gray: #818181;
+  --color-black: #050113;
   --color-white: #f5f5f5;
   --color-accent: #F7DD71;
-  --color-secondary: slateblue;
+  --color-secondary: #8B7EDF;
   --color-bg-purple: #0b0426;
 
   --title-bg: url("data:image/svg+xml,%3Csvg width='1000' height='145' viewBox='0 0 1000 145' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M0 0H1000L908 145H0V0Z' fill='%23F7DD71'/%3E%3C/svg%3E");  
@@ -22,11 +21,11 @@
 /* ------------ Markdown styling ------------ */
 
 section {
-  background: var(--color-white);
+  background: var(--color-bg-purple);
   font-family: 'Montserrat';
   line-height: 180%;
   font-size: 42px;
-  color: var(--color-black);
+  color: var(--color-white);
   height: 1350px;
   width: 1080px;
   padding: 0px;
@@ -40,21 +39,21 @@ p {
 }
 
 strong {
-  color: var(--color-secondary);
+  color: var(--color-accent);
 }
 
 a {
-  color: var(--color-secondary);
+  color: var(--color-accent);
 }
 
 footer {
   padding-left: 50px;
-  color: var(--color-gray);
+  color: var(--color-secondary);
   padding-right: 50px;
 }
 
 footer > a {
-  color: var(--color-gray);
+  color: var(--color-secondary);
 
 }
 
@@ -120,10 +119,18 @@ section > * {
 }
 
 blockquote {
-  font-size: 36px;
+  font-size: 32px;
   line-height: 160%;
   padding-left: 0px;
   padding-right: 4px;
+  color: var(--color-secondary);
+  border-left-color: var(--color-secondary);
+  margin-top: 16px;
+  margin-left: 50px;
+}
+
+blockquote p {
+  padding-left: 30px;
 }
 
 /* Syntax highlight */
@@ -132,12 +139,17 @@ section pre code svg[data-marp-fitting=svg] {
   max-width: 960px;
 }
 
+code {
+  background-color: var(--color-black);
+  color: var(--color-secondary);
+}
+
 pre {
   margin-left: 50px;
   margin-right: 50px;
 
   background-color: var(--color-bg-purple);
-  padding: 64px;
+  padding: 40px;
   font-size: 24px;
 }
 
@@ -250,13 +262,13 @@ img.background {
 .github-logo {
   width: 180px;
   height: 180px;
-  background-image: url("../assets/github-dark.svg");
+  background-image: url("../assets/github-light.svg");
   background-repeat: no-repeat;
 }
 
 .github-repo .url {
   margin-top: 16px;
-  color: var(--color-gray);
+  color: var(--color-secondary);
 }
 .github-repo p {
   padding-top: 0px;
