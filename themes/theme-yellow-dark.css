@@ -31,6 +31,10 @@ section {
   padding: 0px;
 }
 
+header {
+  color: var(--color-secondary);
+}
+
 p {
   padding-top: 24px;
   padding-bottom: 24px;
