@@ -151,6 +151,9 @@ pre {
   background-color: var(--color-bg-purple);
   padding: 40px;
   font-size: 24px;
+
+  border-color: var(--color-white);
+  border-radius: 18px;
 }
 
 pre > code {
