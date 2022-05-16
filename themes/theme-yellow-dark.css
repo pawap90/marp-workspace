@@ -62,21 +62,23 @@ footer > a {
 }
 
 h1 {
-  font-size: 80px;
+  font-size: 110px;
   font-weight: bolder;
   
   padding-left: 50px;
-  padding-top: 18px;
-  padding-bottom: 18px;
+  padding-bottom: 8px;
+  padding-top: 0px;
+  margin-top: 0px;
   color: var(--color-white);
 }
 
 h2 {
   font-size: 52px;
-  font-weight: bolder;
   
   padding-left: 50px;
   padding-bottom: 8px;
+  margin-bottom: 8px;
+  
 }
 
 h3 {
