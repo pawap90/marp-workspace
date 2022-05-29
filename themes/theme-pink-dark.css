@@ -10,3 +10,7 @@
 h1 {
   color: var(--color-white);
 }
+
+span.remark {
+  color: var(--color-white); 
+}

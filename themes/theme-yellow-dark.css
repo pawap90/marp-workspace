@@ -287,3 +287,11 @@ blockquote.small-centered {
   margin-left: auto; 
   margin-right: auto;
 }
+
+span.remark {
+  background-color: var(--color-accent); 
+  color: var(--color-bg-purple); 
+  padding-left: 16px; 
+  padding-right:16px;
+  font-weight: bold;
+}
