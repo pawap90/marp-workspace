@@ -34,9 +34,11 @@ footer: paulasantamaria.com                 �
 
 > This properties are called "directives". Learn more about them [here](https://marpit.marp.app/directives)
 
-# Sample md file
+# Sample .md file
 
 ```
+<!-- ./slides/my-carousel.md -->
+
 ---
 marp: true
 paginate: true
