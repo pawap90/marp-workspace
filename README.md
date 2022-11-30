@@ -6,7 +6,9 @@
 
 ## Generate slides (png)
 
-1. Create a `.md` file within a `slides` folder 
+1. Create a `slides` folder in the root
+2. Create a `.md` file within the `slides` folder 
+3. Write your markdown slides following [marp syntax](https://marpit.marp.app/markdown)
 2. Run `npm run export`
 3. The resulting .pngs can be located in `_output`
 
@@ -31,6 +33,43 @@ footer: paulasantamaria.com                 �
 ```
 
 > This properties are called "directives". Learn more about them [here](https://marpit.marp.app/directives)
+
+# Sample md file
+
+```
+---
+marp: true
+paginate: true
+theme: theme-blue-dark
+size: 4:5
+footer: @pau.codes
+header: TypeScript Gamified
+---
+
+# First slide title
+
+![](./assets/some-pic.png)
+
+---
+
+# Second slide title
+
+```ts
+  console.log('some code');
+\``` 
+<!-- Ignore the bar. I had to add it to avoid breaking the README's markdown -->
+
+---
+
+<!-- Use html elements with css to override the default styles defined in the theme -->
+<div class="final-slide">
+
+# Final slide
+## Call to action
+
+</div>
+
+```
 
 # Tools
 
