@@ -14,6 +14,7 @@
   --color-accent: #F7DD71;
   --color-secondary: #8B7EDF;
   --color-bg-purple: #0b0426;
+  --paginate-color: #8B7EDF;
 
   --title-bg: url("data:image/svg+xml,%3Csvg width='1000' height='145' viewBox='0 0 1000 145' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M0 0H1000L908 145H0V0Z' fill='%23F7DD71'/%3E%3C/svg%3E");  
 }
@@ -54,6 +55,12 @@ footer {
   padding-left: 50px;
   color: var(--color-secondary);
   padding-right: 50px;
+  z-index: 999999;
+}
+
+/* Hide footer on first slide */
+section[data-marpit-pagination="1"] footer {
+  opacity: 0;
 }
 
 footer > a {
@@ -62,8 +69,8 @@ footer > a {
 }
 
 h1 {
-  font-size: 110px;
-  font-weight: bolder;
+  font-size: 100px;
+  font-weight: bold;
   
   padding-left: 50px;
   padding-bottom: 8px;
@@ -96,6 +103,10 @@ h4 {
   padding-left: 50px;
   
   padding-bottom: 8px;
+}
+
+h1 > strong, h2 > strong, h3 > strong, h4 > strong {
+  color: var(--color-accent)!important;
 }
  
 ul, ol {
@@ -294,4 +305,19 @@ span.remark {
   padding-left: 16px; 
   padding-right:16px;
   font-weight: bold;
+}
+
+.code-error {
+  font-size: 30px;
+  font-family: 'Consolas';
+  line-height: 150%;
+  background-color: rgba(173, 47, 69, 0.2) !important;
+  border-left: 6px solid #ad2f45 !important;
+
+  padding-left: 32px !important;
+  padding-right: 32px !important;
+  padding-bottom: 16px !important;
+  padding-top: 24px !important;
+  margin-left: 50px;
+  margin-right: 50px;
 }
