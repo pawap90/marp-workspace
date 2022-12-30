@@ -273,3 +273,16 @@ blockquote.small-centered {
   margin-left: auto; 
   margin-right: auto;
 }
+
+.code-error {
+  background-color: rgba(173, 47, 69, 0.2) !important;
+  border-left: 3px solid #ad2f45 !important;
+  font-family: Consolas, monospace!important;
+
+  padding-left: 16px !important;
+  padding-right: 16px !important;
+  padding-bottom: 4px !important;
+  padding-top: 4px !important;
+  margin-bottom: 16px;
+  font-size: 1.2rem;
+}
