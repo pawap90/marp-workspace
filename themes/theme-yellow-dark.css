@@ -55,11 +55,20 @@ footer {
   padding-left: 50px;
   color: var(--color-secondary);
   padding-right: 50px;
-  z-index: 999999;
+}
+
+/* Page color */
+section[data-paginate="true"]::after {
+  color: var(--color-secondary);
 }
 
 /* Hide footer on first slide */
 section[data-marpit-pagination="1"] footer {
+  opacity: 0;
+}
+
+/* Hide page on first slide */
+section[data-marpit-pagination="1"]::after {
   opacity: 0;
 }
 
