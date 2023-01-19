@@ -10,7 +10,7 @@
   "author": "paulasantamaria",
   "license": "ISC",
   "dependencies": {
-    "@marp-team/marp-cli": "^1.5.2"
+    "@marp-team/marp-cli": "^2.3.0"
   },
   "marp": {
     "inputDir": "slides",
