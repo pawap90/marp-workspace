@@ -185,8 +185,8 @@ pre {
   padding: 40px;
   font-size: 24px;
 
-  border-color: var(--color-accent-rgba);
-  border-width: 2px;
+  border-color: var(--color-secondary);
+  border-width: 1px;
   border-radius: 18px;
 }
 
@@ -357,4 +357,16 @@ span.remark {
 
 .cover>h1 {
   margin-bottom: 48px;
+}
+
+table, td, th {
+  background-color: var(--color-bg-purple);
+}
+
+table {
+  margin: 0 auto 0 auto;
+}
+
+th {
+  font-size: 36px;
 }
