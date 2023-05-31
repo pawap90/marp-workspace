@@ -370,3 +370,14 @@ table {
 th {
   font-size: 36px;
 }
+
+.flex-columns {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.flex-columns > div {
+  width: 50%;
+}

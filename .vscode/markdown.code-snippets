@@ -45,4 +45,20 @@
 		],
 		"description": "Creates a centered blockquote element with small font"
 	},
+	"Flex columns": {
+		"scope": "markdown",
+		"prefix": "flexcols",
+		"body": [
+			"<div class=\"flex-columns\">",
+			"    <div class=\"flex-column\">",
+			"        $1",
+			"    </div>",
+			"    <div class=\"flex-column\">",
+			"        $2",
+			"    </div>",
+			"</div>",
+	 		"$3"
+		],
+		"description": "Creates a flex columns element"
+	},
 }
