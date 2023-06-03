@@ -374,10 +374,18 @@ th {
 .flex-columns {
   display: flex;
   flex-direction: row;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
   justify-content: space-between;
+  margin-left: 50px;
+  margin-right: 50px;
+  gap: 20px;
 }
 
 .flex-columns > div {
   width: 50%;
+}
+
+.flex-columns > div > pre {
+  margin-left: 0px;
+  margin-right: 0px;
 }
