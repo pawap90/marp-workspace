@@ -61,4 +61,25 @@
 		],
 		"description": "Creates a flex columns element"
 	},
+	"Remark block": {
+		"scope": "markdown",
+		"prefix": "remark-block",
+		"body": [
+			"<div class=\"remark-block\">",
+			"",
+			"$1",
+			"",
+			"</div>",
+	 		"$2"
+		],
+		"description": "Creates a remark block element"
+	},
+	"Remark span": {
+		"scope": "markdown",
+		"prefix": "remark-span",
+		"body": [
+			"<span class=\"remark\">$1</span>$2",
+		],
+		"description": "Creates a remark span element"
+	}
 }
