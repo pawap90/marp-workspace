@@ -19,7 +19,7 @@
   --color-bg-purple-light: #150a3f;
   --paginate-color: #8B7EDF;
 
-  --title-bg: url("data:image/svg+xml,%3Csvg width='1000' height='145' viewBox='0 0 1000 145' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M0 0H1000L908 145H0V0Z' fill='%23F7DD71'/%3E%3C/svg%3E");  
+  --title-bg: url("data:image/svg+xml,%3Csvg width='1000' height='145' viewBox='0 0 1000 185' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M0 0H1000L908 145H0V0Z' fill='%23F7DD71'/%3E%3C/svg%3E");  
 }
 
 /* ------------ Markdown styling ------------ */
@@ -71,7 +71,7 @@ section[data-marpit-pagination="1"] footer {
 }
 
 section[data-marpit-pagination="1"] {
-  background: linear-gradient(140deg, rgba(2,0,36,1) 0%, rgba(11,4,38,1) 60%, rgba(37,25,116,1) 130%);
+  background: linear-gradient(140deg, rgba(2,0,36,1) 0%, rgba(11,4,38,1) 40%, rgba(37,25,116,1) 140%);
 }
 
 /* Hide page on first slide */
@@ -177,17 +177,22 @@ code.code-line {
 }
 
 pre {
-  margin-left: 50px;
-  margin-right: 50px;
-
+  margin-left: 0px;
+  margin-right: 0px;
+  
   background-color: var(--color-bg-purple-dark);
   
-  padding: 40px;
-  font-size: 24px;
+  padding: 40px 50px 40px 50px;
 
-  border-color: var(--color-secondary);
-  border-width: 1px;
-  border-radius: 18px;
+  font-size: 24px;
+  
+  border: 2px solid var(--color-secondary);
+  border-radius: 0px;
+  /* border-width: 2px 0px 2px 0px; */
+  border-width: 1px 0px 1px 0px;
+
+  background-color: var(--color-bg-purple-dark);
+  box-shadow: 0px 0px 16px var(--color-bg-purple-dark);
 }
 
 pre > code {
@@ -306,6 +311,7 @@ img.background {
 .github-repo .url {
   margin-top: 16px;
   color: var(--color-secondary);
+  font-size: 36px!important;
 }
 .github-repo p {
   padding-top: 0px;
@@ -313,6 +319,7 @@ img.background {
   font-weight: bold;
   line-height: 1.2;
   font-size: 100vi;
+  font-size: 36px!important;
 }
 
 blockquote.small-centered {
@@ -337,14 +344,15 @@ span.remark {
   font-family: 'Consolas';
   line-height: 150%;
   background-color: rgba(173, 47, 69, 0.2) !important;
-  border-left: 6px solid #ad2f45 !important;
+  border-bottom: 1px solid #ad2f45 !important;
+  border-top: 1px solid #ad2f45 !important;
 
-  padding-left: 32px !important;
-  padding-right: 32px !important;
-  padding-bottom: 16px !important;
-  padding-top: 24px !important;
-  margin-left: 50px;
-  margin-right: 50px;
+  padding-left: 40px !important;
+  padding-right: 40px !important;
+  padding-bottom: 30px !important;
+  padding-top: 30px !important;
+  margin-left: 0px;
+  margin-right: 0px;
 }
 
 .cover {
@@ -355,8 +363,19 @@ span.remark {
   font-size: 36px;
 }
 
-.cover>h1 {
+.cover>h1{
   margin-bottom: 48px;
+}
+
+.cover>h2 {
+  margin-bottom: 48px;
+}
+
+.cover>pre {
+  margin-left: -50px;
+  margin-right: -50px;
+  padding-left: 100px;
+  padding-right: 100px;
 }
 
 table, td, th {
@@ -392,9 +411,17 @@ th {
 
 .remark-block {
   border: 2px solid var(--color-secondary);
-  border-width: 2px 0px 2px 0px;
+  border-width: 1px 0px 1px 0px;
   background-color: var(--color-bg-purple-dark);
   box-shadow: 0px 0px 16px var(--color-bg-purple-dark);
   margin-top: 50px;
   margin-bottom: 50px;
+}
+
+.right-answer>pre {
+  border-color: #2fad68;
+}
+
+.wrong-answer>pre {
+  border-color: #ad2f45;
 }
